@@ -1,0 +1,11 @@
+name: RaniRequest
+version: ${project.version}
+main: ranirequest.ranirequest.RaniRequest
+api-version: 1.13
+commands:
+  호감도:
+    description: favor COMMAND
+    aliases:
+    permission: op.favor
+    permission-message: 권한이 부족합니다.
+    usage: /<command> <닉네임>
